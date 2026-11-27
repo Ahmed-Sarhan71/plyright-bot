@@ -1,0 +1,52 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+token.json
+client_secret.json
+
+# Personal data
+cv.pdf
+profile.json
+
+# Browser sessions
+.chrome-cdp/
+*_state.json
+*_state/
+browser_data/
+user_data/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+screenshots/
+playwright-report/
+test-results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
